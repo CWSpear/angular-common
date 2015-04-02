@@ -1,0 +1,20 @@
+[ui-view].loading {
+    visibility: hidden;
+}
+
+[ui-view].loading:before {
+    content: '';
+    visibility: visible;
+
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: url('loading.svg') no-repeat;
+    background-size: contain;
+    margin: 50px auto;
+}
+
+
+[ui-view].loading.use-loading-alt:before {
+    background-image: url('loading-alt.svg');
+}

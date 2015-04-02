@@ -1,0 +1,38 @@
+{
+  "name": "cwspear-angular-common",
+  "authors": [
+    "Cameron Spear <cameronspear@gmail.com>"
+  ],
+  "description": "For personal use",
+  "main": [
+    "disable-form.js",
+    "disabler-btn.js",
+    "form-submit.js",
+    "loading.css",
+    "loading.js",
+    "spinner-alt.svg",
+    "spinner-btn.js",
+    "spinner.svg",
+    "group-by.js",
+    "moment.js",
+    "props-filter.js",
+    "api.js",
+    "popup-factory.js",
+    "storage.js"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/CWSpear/angular-common",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "~2.9.0",
+    "ladda": "~0.9.7",
+    "angular-modal": "~0.5.0",
+    "restangular": "~1.4.0",
+    "angular-postman": "~1.0.3"
+  }
+}
